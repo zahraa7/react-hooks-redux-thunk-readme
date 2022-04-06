@@ -1,4 +1,3 @@
-// Action Creators
 export function fetchAstronauts(astronauts) {
   return {
     type: "astronauts/astronautsLoaded",
@@ -6,9 +5,9 @@ export function fetchAstronauts(astronauts) {
   };
 }
 
-// Reducers
+
 const initialState = {
-  entities: [], //array of astronauts
+  entities: [], 
 };
 
 export default function reducer(state = initialState, action) {
